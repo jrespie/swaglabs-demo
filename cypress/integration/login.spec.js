@@ -9,9 +9,9 @@ describe('Login to Sauce Demo', () => {
         cy.get('span.title').should('have.text','Products');
     })
     it('Should fail to log in with incorrect credentials',() => {
-
+        throw new Error('test not implemented yet');
     });
     it('Should fail to log in with a locked out user',() => {
-
+        throw new Error('test not implemented yet');
     });
 })
